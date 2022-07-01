@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
     siteMetadata: {
         title: `Things I Should Do`,
-        siteUrl: `https://www.yourdomain.tld`,
+        siteUrl: `https://www.things-isd.tld`,
     },
     plugins: [
         "gatsby-plugin-mantine",
@@ -18,7 +18,7 @@ const config: GatsbyConfig = {
                 name: "images",
                 path: "./src/images/",
             },
-            __key: "images",
+            // __key: "images" as PluginRef,
         },
     ],
 };
